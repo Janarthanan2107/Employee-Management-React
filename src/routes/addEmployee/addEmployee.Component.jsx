@@ -41,6 +41,7 @@ const AddEmployee = () => {
     setEmployee({ ...employee, gender: e.target.value });
   };
 
+  // fetch data from local storage if employee id is there
   useEffect(() => {
     if (empId) {
       setIsEditing(true);
