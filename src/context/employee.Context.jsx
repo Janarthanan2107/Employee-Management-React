@@ -14,7 +14,7 @@ const EmployeeContextProvider = ({ children }) => {
   // database as of now
   const [items, setItems] = useState(lsData);
 
-  // add function
+  // add data function
   const addEmployee = (newItem) => {
     setItems([...items, newItem]);
     toast.success("Data Added Successfully!");
