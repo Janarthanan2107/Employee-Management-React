@@ -5,6 +5,7 @@ const Root = () => {
   return (
     <>
       <Header />
+      {/* for sharing in between components */}
       <Outlet />
       <Footer />
     </>
