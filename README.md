@@ -1,10 +1,10 @@
-## Tic-tac-toe Application
+## Employee Management Application
 
 A brief description of your React application.
 
 ## Live Demo
 
-You can access a live demo of this project [here](https://extraordinary-malabi-a5afbd.netlify.app/).
+You can access a live demo of this project [here](https://heartfelt-hamster-96b7a5.netlify.app/).
 
 ## Installation
 
@@ -13,7 +13,8 @@ Follow these steps to get the project up and running on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   https://github.com/Janarthanan2107/portfolio.git
+   git clone https://github.com/Janarthanan2107/Employee-Management-React.git
+   cd your-react-app
    ```
 
 2. **Install dependencies:**
