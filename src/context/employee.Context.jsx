@@ -43,6 +43,7 @@ const EmployeeContextProvider = ({ children }) => {
     return items.find((item) => item.id === id);
   };
 
+  // fetch data from local storage automatically
   useEffect(() => {
     localStorage.setItem("employees", JSON.stringify(items));
   }, [items]);
