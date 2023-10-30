@@ -27,7 +27,7 @@ const EmployeeContextProvider = ({ children }) => {
     toast.error("Data Successfully Deleted!");
   };
 
-  // update function
+  // update data function
   const updateEmployee = (updatedItem) => {
     // Map the items array to update the correct item
     const updatedItems = items.map((item) =>
