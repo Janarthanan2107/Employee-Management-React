@@ -23,6 +23,7 @@ const AddEmployee = () => {
     about: "",
   });
 
+  // to activate edit function
   const [isEditing, setIsEditing] = useState(false);
 
   // Destructure
