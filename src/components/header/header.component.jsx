@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
+    // header
     <div className="w-full h-16 shadow-md flex justify-between items-center mx-auto px-5">
       <div className="logo flex gap-2 font-semibold">
         <img src="/vite.svg" alt="logo" />
