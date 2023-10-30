@@ -21,6 +21,7 @@ const Dashboard = () => {
       <div className="mt-4">
         <p>Web page flow:</p>
         <div className="flex gap-5">
+        {/* mapping the data for dashboard from contants file  */}
           {imageData.map((item) => {
             const { id, img, imgInfo } = item;
             return (
