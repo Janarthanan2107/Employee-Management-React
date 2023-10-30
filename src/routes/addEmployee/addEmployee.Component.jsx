@@ -114,6 +114,7 @@ const AddEmployee = () => {
       }
     }
 
+    // settimeout function for page navigation
     setTimeout(() => {
       navigate("/employers");
     }, 2000);
