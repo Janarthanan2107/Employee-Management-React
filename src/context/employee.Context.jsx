@@ -20,7 +20,7 @@ const EmployeeContextProvider = ({ children }) => {
     toast.success("Data Added Successfully!");
   };
 
-  // del function
+  // del data function
   const delEmployee = (id) => {
     const updatedTransactions = items.filter((item) => item.id !== id);
     setItems(updatedTransactions);
