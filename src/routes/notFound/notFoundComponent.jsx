@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 const NotFound = () => {
+  // not font page for random url
   return (
     <div className="flex justify-center items-center flex-col gap-2 h-[calc(100vh-10rem)] relative">
       <img
