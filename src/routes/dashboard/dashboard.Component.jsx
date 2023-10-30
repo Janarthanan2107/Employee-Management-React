@@ -1,6 +1,7 @@
 import { imageData } from "../../constant";
 
 const Dashboard = () => {
+  // setting up dash board
   return (
     <div className="h-[calc(100vh-8rem)] px-5">
       <h1 className="text-[2rem] font-bold text-center text-zinc-600">
