@@ -7,6 +7,8 @@ import {
   Employers,
   SingleEmployer,
 } from "./routes";
+
+// providing routers with respective components
 const router = createBrowserRouter([
   {
     path: "/",
