@@ -38,7 +38,7 @@ const EmployeeContextProvider = ({ children }) => {
     toast.success("Data Updated Successfully!");
   };
 
-  // getting id
+  // getting id from url
   const getEmployeeById = (id) => {
     return items.find((item) => item.id === id);
   };
