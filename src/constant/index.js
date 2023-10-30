@@ -1,3 +1,4 @@
+// data for dashboard images
 const imageData = [
     { id: 1, img: "/assets/form.png", imgInfo: "Add employer to the employer screens" },
     { id: 2, img: "/assets/employers.png", imgInfo: "View added employer on the employer screens" },
