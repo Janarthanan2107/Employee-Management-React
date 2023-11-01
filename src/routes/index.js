@@ -7,5 +7,5 @@ import NotFound from "./notFound/notFoundComponent"
 import Employers from "./employersDetails/employers.Component"
 import SingleEmployer from "./singleEmployerDetails/singleEmployer.Component"
 
-
+// exporting the components from this folder
 export { Root, Dashboard, AddEmployee, NotFound, SingleEmployer ,Employers}
