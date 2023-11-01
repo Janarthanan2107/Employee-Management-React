@@ -7,7 +7,7 @@ const Dashboard = () => {
       <h1 className="text-[2rem] font-bold text-center text-zinc-600">
         Employee Dashboard
       </h1>
-
+      {/* info */}
       <p className="mt-4 text-gray-600">
         "In our innovative project, we have crafted a dynamic and user-friendly
         dashboard that empowers you to effortlessly manage your workforce.
