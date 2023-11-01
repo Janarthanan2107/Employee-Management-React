@@ -14,6 +14,7 @@ const Employers = () => {
         Employers Zone
       </h1>
       <p>Every employer records are here:</p>
+      {/* mapping the values from the local storages */}
       <div className="flex flex-wrap gap-2">
         {items.length > 0 ? (
           items.map((item, index) => {
@@ -62,6 +63,7 @@ const Employers = () => {
             );
           })
         ) : (
+      // if not records are there this condition will get it
           <div className="flex justify-center items-center shadow-md rounded-md p-5 mt-3">
             <p className="text-[1.25rem] font-semibold text-gray-500">
               No records found
