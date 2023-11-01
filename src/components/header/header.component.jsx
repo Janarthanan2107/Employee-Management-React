@@ -11,6 +11,7 @@ const Header = () => {
       <nav>
         <ul className="flex gap-5 items-center font-semibold">
           <li>
+      {/* maintaining the navigation using navlink */}
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -23,6 +24,7 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
+          {/* using the navlink the active dom will highlight using the function  */}
             <NavLink
               to="/employers"
               className={({ isActive }) =>
