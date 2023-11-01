@@ -6,6 +6,7 @@ import "./index.css";
 import { EmployeeContextProvider } from "./context/employee.Context.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
+  // wrapping the context with the app
   <React.StrictMode>
     <EmployeeContextProvider>
       <App />
