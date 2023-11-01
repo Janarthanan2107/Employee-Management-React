@@ -10,7 +10,7 @@ const SingleEmployer = () => {
 
   useEffect(() => {
     const storedEmployerData = JSON.parse(localStorage.getItem("employees"));
-
+    // using useParams we can get the last name for it
     console.log("devName from URL:", String(devName).slice(1));
 
     if (storedEmployerData) {
