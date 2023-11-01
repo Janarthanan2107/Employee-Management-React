@@ -28,6 +28,7 @@ const SingleEmployer = () => {
         Single Employer
       </h1>
       <div className="card shadow-md rounded-lg p-3">
+      {/* if employer is there  */}
         {employer ? (
           <>
             <div className="flex justify-content-between">
